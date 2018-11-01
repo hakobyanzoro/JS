@@ -1,11 +1,13 @@
 
 
 
-git init			//creating emptly repo
-git status			//checking status (always)
-git add (file name)		//indexing files ((add .) adding all files)
-git commit -m "commit name"	//making commit
-
+git init				//creating emptly repo
+git status				//checking status (always)
+git add (file name)			//indexing files ((add .) adding all files)
+git commit -m "commit name"		//making commit
+git branch (name)			//adding branch
+git checkout (name)			//switching to branch 
+git push -u origin (branch name)	//pushing to github
 
 
 1 adding new repo in github
