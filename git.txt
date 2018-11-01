@@ -7,6 +7,8 @@ git add (file name)			//indexing files ((add .) adding all files)
 git commit -m "commit name"		//making commit
 git branch (name)			//adding branch
 git checkout (name)			//switching to branch 
+git branch -m new-name			//branch local rename
+git push origin :oldname newname	//branch remote rename
 git push -u origin (branch name)	//pushing to github
 
 
