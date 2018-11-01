@@ -1,0 +1,11 @@
+let number = prompt('Your input is...', '');
+const FIFTH_DIGIT = number % 10;
+number = (number - FIFTH_DIGIT) / 10;
+const FOURTH_DIGIT = number % 10;
+number = (number - FOURTH_DIGIT) / 10;
+const THIRD_DIGIT = number % 10;
+number = (number - THIRD_DIGIT) / 10;
+const SECOND_DIGIT = number % 10;
+const FIRST_DIGIT = (number - SECOND_DIGIT) /10;
+const SUM = FIFTH_DIGIT + FOURTH_DIGIT + THIRD_DIGIT + SECOND_DIGIT + FIRST_DIGIT;
+document.write('Answer is' , SUM);

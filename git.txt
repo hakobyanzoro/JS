@@ -1,0 +1,3 @@
+git init		//creating emptly repo
+git status		//checking status (always)
+git add (file name)	//indexing files ((add .) adding all files)

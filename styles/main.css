@@ -1,0 +1,16 @@
+* {
+    color: ghostwhite;
+    font-size: 52px;
+}
+body {
+    background-color: black;
+}
+.container {
+    max-width: 1100px;
+
+}
+.column {
+    max-width: 1000px;
+    min-height: 80px;
+    border: 2px dashed gray;
+}
